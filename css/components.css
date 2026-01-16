@@ -1,0 +1,68 @@
+/* css/components.css */
+
+/* Навигация */
+.main-nav ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav a {
+    padding: 0.5rem 1rem;
+    color: #333;
+}
+
+.main-nav a:hover {
+    background: #eee;
+    border-radius: 4px;
+}
+
+.active {
+    background: #007acc;
+    color: white !important;
+    border-radius: 4px;
+}
+
+/* Кнопка */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
+/* Карточка новости */
+.news-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 1.5rem;
+}
+
+/* Форма */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background: #007acc;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
